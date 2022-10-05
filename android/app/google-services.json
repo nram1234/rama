@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "29081369561",
+    "project_id": "newrama-223bb",
+    "storage_bucket": "newrama-223bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29081369561:android:e558abf8b6353be1ccf7c8",
+        "android_client_info": {
+          "package_name": "com.example.rama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29081369561-7j8k5bf362m9jb4ivn51eko02rr7efq8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rama",
+            "certificate_hash": "e91710c2220e09332783657d7bd99f0e35d63ee1"
+          }
+        },
+        {
+          "client_id": "29081369561-pn2h7k1vq2hvphchg0gt1e4ukhcjr4jd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsBD1yufESoelukrTX-9SJkE5W7LiBW5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29081369561-pn2h7k1vq2hvphchg0gt1e4ukhcjr4jd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
