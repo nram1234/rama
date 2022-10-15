@@ -7,6 +7,7 @@ import 'auth/register_view.dart';
 import 'binding/binding_auth.dart';
 import 'binding/binding_home.dart';
 import 'middleware/auth_middleware.dart';
+import 'ui/edit_prodect.dart';
 import 'ui/home_screen.dart';
 
 void main() async{
@@ -53,6 +54,11 @@ class MyApp extends StatelessWidget {
             name: "/RegisterView",
             page: () => RegisterView(),
             binding: AuthBinding()),
+        // GetPage(
+        //     name: "/EditProdect",
+        //     page: () => EditProdect(),
+        //     binding: AuthBinding()),
+
       ],
     );
   }

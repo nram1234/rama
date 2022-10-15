@@ -25,16 +25,17 @@ class HomeView extends GetWidget<HomeController> {
         actions: [],
       ),
       body: Column(children: [
-     // StreamBuilder<QuerySnapshot>(
-     //   stream:   controller.   firestore
-     //       .collection('users')
-     //       .snapshots().asBroadcastStream()
-     //       ,
-     //   builder: (context, snapshot) {
-     //     print("snapshot.data=;;;>  ${snapshot.data?.docs.length}");
-     //     return Container();
-     //   }
-     // )
+     //    GridView.
+     // // StreamBuilder<QuerySnapshot>(
+     // //   stream:   controller.   firestore
+     // //       .collection('users')
+     // //       .snapshots().asBroadcastStream()
+     // //       ,
+     // //   builder: (context, snapshot) {
+     // //     print("snapshot.data=;;;>  ${snapshot.data?.docs.length}");
+     // //     return Container();
+     // //   }
+     // // )
         Expanded(
             flex: 1,
             child: GetBuilder<HomeController>(

@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../view_model/edit_prodect_controller.dart';
 import '../widgets/custom_buttom.dart';
 import '../widgets/custom_input_filed.dart';
-import 'edit_prodect_controller.dart';
+
 
 
 class EditProdect extends GetWidget<EditProdectController> {
